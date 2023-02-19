@@ -1,0 +1,175 @@
+.page {
+    position: relative;
+    padding: 8.25rem 0 0 0;
+    z-index: 20;
+}
+.page__main {
+    position:absolute;
+    width: 100%;
+}
+.main {
+    position: absolute;
+}
+.main__container{
+    display: flex;
+}
+.main__row {
+    display: flex;
+    flex: 1 1 auto;
+    gap: 10.25rem;
+}
+.main__contant {
+}
+.main__play-video{
+    display: flex;
+    align-items: center;
+}
+.main-link__one {
+    width: 3.25rem;
+    height: 3.25rem;
+    border-radius: 50%;
+    background: #FF3F3A;
+    background-image: url(../img/main/Polygon.svg);
+    background-repeat: no-repeat;
+    background-position: 55%;
+    transition: 2s;
+}
+.one-link {
+}
+.main-link__two {
+    margin-left: 1rem;
+    font-weight: 700;
+    font-size: 0.875rem;
+}
+.two-link {
+}
+.main__title {
+    max-width: 31rem;
+    font-size: 4rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    line-height: 5.2rem;
+    padding:1.5rem 0 3.75rem 0 ;
+}
+.main__buttons {
+    display: flex;
+}
+.buttons__button-link  {
+    display: flex;
+    align-items: center;
+    padding:0.625rem 2.5rem;
+    background: #fff;
+    border: 0.5px solid #FF3F3A;
+    border-radius: 4px;
+    color: #FF3F3A;
+    font-weight: 700;
+    margin-right: 1.5rem;
+
+}
+.buttons__button-link:hover{
+    padding:0.625rem 2.5rem;
+    background: #FF3F3A;
+    border: 0.5px solid #FF3F3A;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 700;
+    margin-right: 1.5rem;
+}
+.button-link__buttons {
+    display: flex;
+    align-items: center;
+    padding:0.625rem 2.5rem;
+    background: #FF3F3A;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 700;
+}
+.button-link__buttons:hover{
+    padding:0.625rem 2.5rem;
+    background: #fff;
+    border: 0.5px solid #FF3F3A;
+    border-radius: 4px;
+    color: #FF3F3A;
+    font-weight: 700;
+}
+
+.main-icon__fonts {
+}
+
+/* Статистика */
+
+
+.page__statistics {
+    margin: 11.81rem 0 5rem 0;
+    display: flex;
+}
+.page-statistics {
+}
+.page-statistics__container {
+    display: flex;
+    z-index: 2;
+    flex: 1 1 25%;
+    gap:4.12rem;
+}
+.page-statistics__item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+.page-statistics__value {
+    display: flex;
+    font-size: 2.87rem;
+    font-weight: 900;
+}
+.page-statistics__text {
+    text-align: center;
+}
+.page-statistics__decore {
+    width: 0.5rem;
+    height: 0.5rem;
+    background: #FF3F3A;
+    border-radius: 50%;
+    align-self: center;
+}
+
+/* Декорации */
+
+.page__decore {
+position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.decore-page {
+}
+.decor-page__item {
+ position: absolute;  
+}
+.decor-page__item--1 {
+    width: 6rem ;
+    height: 6rem;
+    top: 12.314815%;
+    left: 1.270833%;
+    background: url(../img/Decore/shapes.svg) 0 0 no-repeat;
+}
+.decor-page__item--2 {
+    width:17.75rem ;
+    height:17.75rem;
+    bottom: -50.259259%;
+    left: -3.833333%;
+    background: url(../img/Decore/circles.svg) 0 0 no-repeat;
+}
+.decor-page__item--3 {
+    width:5.5rem ;
+    height: 2.93rem;
+    top: 50.092593%;
+    left: 38.729167%;
+    background: url(../img/Decore/shapes2.svg) 0 0 no-repeat;
+}
+.decor-page__item--4 {
+}
+.decor-page__item--5 {
+}
+.decor-page__item--6 {
+}

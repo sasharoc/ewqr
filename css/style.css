@@ -1,0 +1,138 @@
+@import"null.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+body{
+    background: linear-gradient(55.95deg,rgba(255,63,56,.2) 0,rgba(245,93,5,.2) 100%);
+}
+.wraper {
+    min-height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    
+}
+[class*="__container"] {
+    max-width: 78.75rem ;
+    padding: 0 0.9375rem;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    height: 5.25rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    padding: 1.25rem 0 0 0;
+    background: #ff5602;
+}
+.header__container {
+    display: flex;
+    gap: 3.75rem;
+}
+.header__logo {
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+}
+.header-logo__icon {
+    display: flex;
+    align-items: center;
+}
+.header__nav { 
+    display: flex;
+    align-items: center;
+}
+.header-nav__items {
+    display: flex;
+    gap: 2.5rem;
+}
+.header-nav__items:last-child{
+    margin-right: 10.31rem;
+}
+.header-nav__item {
+    display: flex;
+    flex: 1 1 20%;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #424551;
+    transition: 0.6s;
+}
+.header-nav__item:hover{
+    color: rgb(0, 0, 0);
+    transition: 0.6s;
+}
+.header-nav__link {
+    display: flex;
+}
+
+.header__contant {
+    display: flex;
+    align-items: center;
+    gap: 2.25rem;
+}
+.button-contant {
+    display: flex;
+    align-items: center;
+    padding: 0.625rem 2.5rem;
+    font-weight: 700;
+    border-radius: 4px;
+    letter-spacing: 0,03125rem;
+    background: #FF3F3A;
+    color: #fff;
+    transition: 0.8s;
+}
+.button-contant:hover{
+    background: #fff;
+    color: #FF3F3A;
+    border: 0.5px solid #FF3F3A;
+    transition: 0.8s;
+}
+.button-contant__link {
+    font-weight: 700;
+}
+.links-contant{
+    display: flex;
+    flex: 1 1 33.333%;
+    gap:0.5rem;
+}
+.link-contant-one {
+    color: #424551;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    transition: 1.2s;
+}
+.link-contant-one:hover{
+    border-bottom: 0.4px solid #000;
+    transition: 1.2s;
+}
+.link-contant-one::before{
+    content: url(../img/Profile.svg);
+    display: flex;
+    align-items: center;
+    margin-right: 0.5rem;
+}
+.contant-space {
+    display: flex;
+    align-items: center;
+    color: #424551;
+    font-weight: 700;
+}
+.link-contant-two {
+    display: flex;
+    align-items: center;
+    color: #424551;
+    font-weight: 700;
+    transition: 1.2px;
+}
+.link-contant-two:hover{
+    border-bottom: 0.4px solid #000;
+    transition: 1.2s;
+}
